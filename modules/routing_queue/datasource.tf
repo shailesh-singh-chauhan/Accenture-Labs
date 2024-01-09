@@ -1,8 +1,8 @@
 #Division Data Source
 
-/*data "genesyscloud_auth_division" "demo1"{
+data "genesyscloud_auth_division" "demo1"{
     name = "Demo1"
-}*/
+}
 
 
 #Skil Data Source
