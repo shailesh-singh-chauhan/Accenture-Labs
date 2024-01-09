@@ -1,7 +1,7 @@
 
-resource "genesyscloud_routing_queue" "example_queue4" {
-  name                              = "Example Queue 4"
-  division_id                       = data.genesyscloud_auth_division.demo1.id
+resource "genesyscloud_routing_queue" "example_queue5" {
+  name                              = "Example Queue 5"
+  division_id                       = data.genesyscloud_auth_division.demo2.id
   description                       = "This is an example description"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
@@ -23,7 +23,7 @@ resource "genesyscloud_routing_queue" "example_queue4" {
   }
   bullseye_rings {
     expansion_timeout_seconds = 15.1
-    skills_to_remove          = [data.genesyscloud_routing_skill.test_skill2.id]
+    skills_to_remove          = [data.genesyscloud_routing_skill.test_skill3.id]
 
    
   }

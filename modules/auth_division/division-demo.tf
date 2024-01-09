@@ -1,7 +1,7 @@
-resource "genesyscloud_auth_division" "demo1" {
-    description = "Demo1"
+resource "genesyscloud_auth_division" "demo2" {
+    description = "Demo2"
 
-    name = "Demo1"
+    name = "Demo2"
     
 }
 
