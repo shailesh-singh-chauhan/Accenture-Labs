@@ -1,3 +1,3 @@
 output "test_skill3" {
-  value = genesyscloud_routing_wrapupcode.test_skill3.id
+  value = genesyscloud_routing_skill.test_skill3.id
 }
