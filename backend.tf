@@ -1,20 +1,19 @@
 terraform {
-  backend "remote" {
-    organization = "shailesh-singh-chauhan"
-
- 
+  cloud {
+    organization = "CICD-Accenture-Lab"
 
     workspaces {
-      name = "Training-Dev"
+      name = "Accenture_UK_Lab"
     }
   }
+
 
  
 
   required_providers {
     genesyscloud = {
-      source = "mypurecloud/genesyscloud"
-      version = "1.17.0"
+      source = "MyPureCloud/genesyscloud"
+      version = "1.29.0"
     }
   }
 }
