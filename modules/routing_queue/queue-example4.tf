@@ -11,22 +11,4 @@ resource "genesyscloud_routing_queue" "example_queue5" {
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
   
-  media_settings_call {
-    alerting_timeout_sec      = 30
-    service_level_percentage  = 0.7
-    service_level_duration_ms = 10000
-  }
-  routing_rules {
-    operator     = "MEETS_THRESHOLD"
-    threshold    = 9
-    wait_seconds = 300
-  }
-  bullseye_rings {
-    expansion_timeout_seconds = 15.1
-    skills_to_remove          = [data.genesyscloud_routing_skill.test_skill3.id]
-
-   
-  }
- 
-  wrapup_codes = [var.resolved-id]
 }
