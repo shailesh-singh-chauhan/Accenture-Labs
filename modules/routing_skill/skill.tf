@@ -1,3 +1,3 @@
-resource "genesyscloud_routing_skill" "test_skill4" {
-  name = "Test Skill 4"
+resource "genesyscloud_routing_skill" "test_skill3" {
+  name = "Test Skill 3"
 }
