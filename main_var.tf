@@ -11,7 +11,7 @@ module "routing_queue" {
 
 #Wrap Up Code IDs
 
-resolved-id = module.routing-wrapup-code.resolved-id
+#resolved-id = module.routing-wrapup-code.resolved-id
 
 }
 
