@@ -10,5 +10,6 @@ resource "genesyscloud_routing_queue" "example_queue5" {
   enable_transcription              = true
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
+  wrapup_codes = [genesyscloud_routing_wrapupcode.win1.id]
   
 }
