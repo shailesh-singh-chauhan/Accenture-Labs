@@ -1,4 +1,4 @@
-/*
+
 resource "genesyscloud_routing_queue" "example_queue5" {
   name                              = "Example Queue 5"
  # division_id                       = data.genesyscloud_auth_division.demo2.id
@@ -12,4 +12,4 @@ resource "genesyscloud_routing_queue" "example_queue5" {
   calling_party_name                = "Example Inc."
     
 }
-*/
+
