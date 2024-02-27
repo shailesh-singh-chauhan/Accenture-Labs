@@ -1,6 +1,6 @@
 
-resource "genesyscloud_routing_queue" "example_queue5" {
-  name                              = "Example Queue 5"
+resource "genesyscloud_routing_queue" "example_queue7" {
+  name                              = "Example Queue 7"
  # division_id                       = data.genesyscloud_auth_division.demo2.id
   description                       = "This is an example description"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
