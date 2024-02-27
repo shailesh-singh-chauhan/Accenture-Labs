@@ -1,3 +1,3 @@
-output "test_skill4" {
-  value = genesyscloud_routing_skill.test_skill4.id
+output "cicd_skill" {
+  value = genesyscloud_routing_skill.cicd_skill.id
 }
