@@ -1,6 +1,6 @@
 #Division Data Source
 
-/*data "genesyscloud_auth_division" "demo2"{
+/*data "genesyscloud_auth_division" "demo2"
     name = "Demo2"
 }
 
