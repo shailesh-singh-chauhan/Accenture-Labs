@@ -19,7 +19,7 @@ module "routing_queue" {
 module "routing_skill" {
 	source = "./modules/routing_skill"
 
-Routing Skill IDs
+#Routing Skill IDs
 cicd_skill-id = module.routing-skill.cicd_skill
 
 }
