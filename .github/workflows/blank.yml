@@ -5,7 +5,7 @@ name: 'Terraform_Automatic'
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" , "dev_branch", "qa_branch"]
     
 permissions:
   contents: read
