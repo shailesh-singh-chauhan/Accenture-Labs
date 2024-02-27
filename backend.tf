@@ -1,11 +1,4 @@
-terraform {
-  cloud {
-    organization = "CICD-Accenture-Lab"
 
-    workspaces {
-      name = "Accenture_UK_Lab"
-    }
-  }
 
 
  
