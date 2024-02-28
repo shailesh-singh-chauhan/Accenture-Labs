@@ -3,7 +3,7 @@ terraform {
     organization = "CICD-Accenture-Lab"
 
     workspaces {
-      name = "Accenture_UK_Lab"
+      name = "Accenture_UK_Lab_Training"
     }
   }
 
