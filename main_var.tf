@@ -2,15 +2,18 @@
 # Module for auth-division
 module "auth_division" {
   source = "./modules/auth_division"   
-
-#Division IDs
-cicd_division = module.auth-division.cicd_division
 }
+
 
 
 # Module for routing-queue
 module "routing_queue" {
     source = "./modules/routing_queue"
+
+#Division IDs
+cicd_division = module.auth-division.cicd_division
+
+
 }
 
 
