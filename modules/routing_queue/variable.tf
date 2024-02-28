@@ -5,6 +5,12 @@
     description = "provides  id of wrapupcode " 
   }
 
+ variable "cicd_wrap" {
+    type = string
+    default = ""
+    description = "provides  id of wrapupcode " 
+  }
+
 #Variable for division
  variable "cicd_division"{
  type = string

@@ -18,7 +18,7 @@ cicd_skill = module.routing-skill.cicd_skill
 
 #Wrap Up Code IDs
 resolved = module.routing-wrapup-code.resolved
-cicd = module.routing-wrapup-code.cicd
+cicd_wrap = module.routing-wrapup-code.cicd_wrap
 
 }
 
