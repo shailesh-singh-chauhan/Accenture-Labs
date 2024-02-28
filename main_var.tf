@@ -5,15 +5,23 @@ module "auth_division" {
 }
 
 
+
 # Module for routing-queue
 module "routing_queue" {
     source = "./modules/routing_queue"
 
-#Wrap Up Code IDs
+#Division IDs
+cicd_division = module.auth_division.cicd_division
 
-#resolved-id = module.routing-wrapup-code.resolved-id
+#Routing Skill IDs
+cicd_skill = module.routing_skill.cicd_skill
+
+#Wrap Up Code IDs
+resolved = module.routing-wrapup-code.resolved
+cicd_wrap = module.routing-wrapup-code.cicd_wrap
 
 }
+
 
 
 # Module for routing-skill
@@ -21,14 +29,10 @@ module "routing_skill" {
 	source = "./modules/routing_skill"
 }
 
-
-
 #Module for routing-wrapup-code
 module "routing-wrapup-code" {
 	source = "./modules/routing_wrapupcode"
 }
-
-
 
 
 #Module for workflow
