@@ -11,7 +11,7 @@ module "routing_queue" {
     source = "./modules/routing_queue"
 
 #Division IDs
-cicd_division = module.auth-division.cicd_division
+cicd_division = module.auth_division.cicd_division
 
 #Routing Skill IDs
 cicd_skill = module.routing-skill.cicd_skill
