@@ -18,7 +18,7 @@
  }
  
  #Variable for skill
-  variable "cicd_skill" {
+  variable "cicd_skill_1" {
   type = string
   description = "provides id of skill"
   }
