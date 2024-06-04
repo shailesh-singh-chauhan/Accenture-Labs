@@ -1,6 +1,6 @@
 
 resource "genesyscloud_routing_queue" "cicd_queue" {
-  name                              = "CICD Queue"
+  name                              = "CICD Queue 2"
   division_id						            = var.cicd_division
   description                       = "This is a CICD Training Queue"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
@@ -10,7 +10,7 @@ resource "genesyscloud_routing_queue" "cicd_queue" {
   enable_transcription              = true
   enable_manual_assignment          = true
   calling_party_name                = "CICD"
-  calling_party_number              = "+919079624027"
+  calling_party_number              = "+441231234"
   wrapup_codes					           	= [var.resolved,var.cicd_wrap]  
 }
 
