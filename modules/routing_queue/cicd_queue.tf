@@ -1,4 +1,4 @@
-
+/*
 resource "genesyscloud_routing_queue" "cicd_queue" {
   name                              = "CICD Queue_NNI"
   division_id						            = var.cicd_division
@@ -13,4 +13,4 @@ resource "genesyscloud_routing_queue" "cicd_queue" {
   calling_party_number              = "+4472027012"
   wrapup_codes					           	= [var.resolved,var.cicd_wrap]  
 }
-
+*/
