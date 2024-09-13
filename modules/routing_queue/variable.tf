@@ -1,3 +1,4 @@
+/*
 #Variable for wrapup code
  variable "resolved" {
     type = string
@@ -23,3 +24,4 @@
   description = "provides id of skill"
   }
 
+*/
