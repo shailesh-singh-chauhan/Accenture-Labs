@@ -11,14 +11,14 @@ module "routing_queue" {
     source = "./modules/routing_queue"
 
 #Division IDs
-#cicd_division = module.auth_division.cicd_division
+cicd_division = module.auth_division.cicd_division
 
 #Routing Skill IDs
-#cicd_skill_1 = module.routing_skill.cicd_skill_1
+cicd_skill_1 = module.routing_skill.cicd_skill_1
 
 #Wrap Up Code IDs
-#resolved = module.routing-wrapup-code.resolved
-#cicd_wrap = module.routing-wrapup-code.cicd_wrap
+resolved = module.routing-wrapup-code.resolved
+cicd_wrap = module.routing-wrapup-code.cicd_wrap
 
 }
 

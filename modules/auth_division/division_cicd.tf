@@ -1,4 +1,4 @@
-/*
+
 resource "genesyscloud_auth_division" "cicd_division" {
     description = "CICD Division"
 
@@ -6,4 +6,3 @@ resource "genesyscloud_auth_division" "cicd_division" {
     
 }
 
-*/
