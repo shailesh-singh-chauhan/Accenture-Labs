@@ -1,5 +1,5 @@
 #Variable for wrapup code
- variable "resolved" {
+ /*variable "resolved" {
     type = string
     default = ""
     description = "provides  id of wrapupcode " 
@@ -22,3 +22,4 @@
   type = string
   description = "provides id of skill"
   }
+*/
