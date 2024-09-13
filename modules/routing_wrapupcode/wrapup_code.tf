@@ -1,5 +1,5 @@
 
-resource "genesyscloud_routing_wrapupcode" "cicdrap" {
+resource "genesyscloud_routing_wrapupcode" "cicd_wrap" {
   name = "CICD_WRAP_UP_CODE_NNI"
 }
 
